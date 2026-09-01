@@ -5,149 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
-          content="Swaiba Javed Bajwa - Undergraduate Computer Science Student, AI Enthusiast, Digital Creator and Technology Learner">
+        content="Swaiba Javed Bajwa — BS Computer Science student, AI enthusiast, developer and technology learner.">
+
+    <meta name="keywords"
+        content="Swaiba Javed Bajwa, Computer Science, Machine Learning, Generative AI, Python, Cybersecurity">
 
     <title>Swaiba Javed Bajwa | Portfolio</title>
 
-    <!-- Google Font -->
+    <link rel="stylesheet" href="style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Icons -->
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
-    <!-- Main CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
     <!-- Background -->
-    <div class="background">
-        <div class="grid"></div>
-        <div class="glow glow-one"></div>
-        <div class="glow glow-two"></div>
-        <div id="particles"></div>
-    </div>
-
-    <!-- Loading Screen -->
-    <div id="loader">
-        <div class="loader-content">
-            <div class="loader-logo">SJB</div>
-            <div class="loader-line"></div>
-            <p>Loading Portfolio...</p>
-        </div>
-    </div>
-
+    <div class="background-glow"></div>
+    <div class="grid-background"></div>
 
     <!-- Navigation -->
     <header class="navbar">
 
         <a href="#home" class="logo">
-            <span>S</span>JB
+            S<span>J</span>.
         </a>
 
-        <nav id="nav-menu">
-            <a href="#home" class="nav-link active">
-                <i class="fa-solid fa-house"></i>
-                <span>Home</span>
-            </a>
-
-            <a href="#about" class="nav-link">
-                <i class="fa-solid fa-user"></i>
-                <span>About</span>
-            </a>
-
-            <a href="#education" class="nav-link">
-                <i class="fa-solid fa-graduation-cap"></i>
-                <span>Education</span>
-            </a>
-
-            <a href="#skills" class="nav-link">
-                <i class="fa-solid fa-code"></i>
-                <span>Skills</span>
-            </a>
-
-            <a href="#projects" class="nav-link">
-                <i class="fa-solid fa-laptop-code"></i>
-                <span>Projects</span>
-            </a>
-
-            <a href="#leadership" class="nav-link">
-                <i class="fa-solid fa-crown"></i>
-                <span>Leadership</span>
-            </a>
-
-            <a href="#contact" class="nav-link">
-                <i class="fa-solid fa-envelope"></i>
-                <span>Contact</span>
-            </a>
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#learning">Learning</a>
+            <a href="#contact">Contact</a>
         </nav>
 
-        <button class="menu-btn" id="menu-btn">
-            <i class="fa-solid fa-bars"></i>
-        </button>
+        <a href="#contact" class="nav-button">
+            Let's Talk ↗
+        </a>
 
     </header>
 
 
-    <!-- MAIN -->
     <main>
 
-        <!-- ================= HOME ================= -->
-        <section id="home" class="section home-section">
+        <!-- HERO -->
+        <section id="home" class="hero">
 
-            <div class="home-content">
+            <div class="hero-content">
 
-                <div class="home-badge">
-                    <span class="status-dot"></span>
-                    Open to learning & opportunities
-                </div>
-
-                <p class="small-intro">WELCOME TO MY PORTFOLIO</p>
-
-                <h1>
-                    Swaiba Javed Bajwa
-                </h1>
-
-                <h2>
-                    <span id="typing-text"></span>
-                    <span class="cursor">|</span>
-                </h2>
-
-                <p class="home-description">
-                    Passionate about technology, creative digital solutions,
-                    Generative AI, Machine Learning and continuous learning.
+                <p class="small-label">
+                    COMPUTER SCIENCE • AI • TECHNOLOGY
                 </p>
 
-                <div class="home-buttons">
+                <h1>
+                    Swaiba<br>
+                    <span>Javed Bajwa</span>
+                </h1>
 
-                    <a href="#about" class="primary-btn">
-                        Explore My Portfolio
-                        <i class="fa-solid fa-arrow-right"></i>
+                <p class="hero-title">
+                    BS Computer Science Student <b>+</b> AI Enthusiast
+                </p>
+
+                <p class="hero-description">
+                    I’m a Computer Science student passionate about Machine Learning,
+                    Generative AI, software development and building meaningful
+                    digital experiences.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="button primary-button">
+                        Explore My Work
                     </a>
 
-                    <a href="#contact" class="secondary-btn">
-                        Contact Me
-                        <i class="fa-regular fa-paper-plane"></i>
-                    </a>
-
-                </div>
-
-                <div class="home-socials">
-
-                    <a href="https://www.linkedin.com/in/swaiba-javed-bajwa-210181315?utm_source=share_via&utm_content=profile&utm_medium=member_android"
-                       target="_blank"
-                       rel="noopener noreferrer"
-                       aria-label="LinkedIn">
-                        <i class="fa-brands fa-linkedin-in"></i>
-                    </a>
-
-                    <a href="mailto:swaiba650@gmail.com"
-                       aria-label="Email">
-                        <i class="fa-regular fa-envelope"></i>
+                    <a href="#about" class="button outline-button">
+                        More About Me
                     </a>
 
                 </div>
@@ -155,136 +91,124 @@
             </div>
 
 
-            <!-- Computer / AI visual -->
+            <!-- Visual Feature -->
             <div class="hero-visual">
 
-                <div class="orbit orbit-one"></div>
-                <div class="orbit orbit-two"></div>
+                <div class="visual-ring ring-one"></div>
+                <div class="visual-ring ring-two"></div>
+                <div class="visual-ring ring-three"></div>
 
-                <div class="computer-card">
+                <div class="visual-core">
 
-                    <div class="computer-top">
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                    <div class="core-number">
+                        01
                     </div>
 
-                    <div class="computer-screen">
+                    <div class="core-title">
+                        AI
+                    </div>
 
-                        <div class="code-line">
-                            <span class="code-purple">const</span>
-                            <span class="code-blue">future</span> =
-                            <span class="code-green">"technology"</span>;
-                        </div>
-
-                        <div class="code-line">
-                            <span class="code-purple">let</span>
-                            <span class="code-blue">learning</span> =
-                            <span class="code-orange">true</span>;
-                        </div>
-
-                        <div class="code-line">
-                            <span class="code-purple">function</span>
-                            <span class="code-blue">createSolution</span>() {
-                        </div>
-
-                        <div class="code-line indent">
-                            AI + Creativity + Code;
-                        </div>
-
-                        <div class="code-line">
-                            }
-                        </div>
-
+                    <div class="core-text">
+                        CREATE<br>
+                        LEARN<br>
+                        BUILD
                     </div>
 
                 </div>
 
-                <div class="floating-icon icon-one">
-                    <i class="fa-solid fa-brain"></i>
+                <div class="floating-card card-top">
+                    MACHINE<br>LEARNING
                 </div>
 
-                <div class="floating-icon icon-two">
-                    <i class="fa-solid fa-code"></i>
+                <div class="floating-card card-bottom">
+                    GENERATIVE<br>AI
                 </div>
 
-                <div class="floating-icon icon-three">
-                    <i class="fa-solid fa-microchip"></i>
-                </div>
-
-                <div class="floating-icon icon-four">
-                    <i class="fa-solid fa-robot"></i>
-                </div>
-
-            </div>
-
-            <div class="scroll-indicator">
-                <span>Explore</span>
-                <i class="fa-solid fa-chevron-down"></i>
             </div>
 
         </section>
 
 
-        <!-- ================= ABOUT ================= -->
+        <!-- ABOUT -->
         <section id="about" class="section">
 
-            <div class="section-header">
-                <span class="section-number">01</span>
-                <p>GET TO KNOW ME</p>
-                <h2>About <span>Me</span></h2>
+            <div class="section-heading">
+                <span>01 — ABOUT</span>
+                <div></div>
             </div>
 
             <div class="about-grid">
 
-                <div class="about-visual">
-                    <div class="profile-ring">
-                        <div class="profile-initials">SJB</div>
-                    </div>
+                <h2>
+                    Curious mind.<br>
+                    <span>Creative builder.</span>
+                </h2>
 
-                    <div class="about-floating-card">
-                        <i class="fa-solid fa-laptop-code"></i>
-                        <span>Computer Science</span>
-                    </div>
+                <div class="about-text">
+
+                    <p>
+                        I’m <strong>Swaiba Javed Bajwa</strong>, a BS Computer Science
+                        student at the National University of Pakistan, currently
+                        studying in my 5th semester.
+                    </p>
+
+                    <p>
+                        My interests lie in Machine Learning, Generative AI,
+                        programming, cybersecurity, web development and emerging
+                        technologies. I enjoy learning through practical projects
+                        and exploring how technology can solve real-world problems.
+                    </p>
+
+                    <p>
+                        I believe that growth comes from curiosity, experimentation,
+                        collaboration and continuously turning ideas into something
+                        useful.
+                    </p>
+
                 </div>
 
-                <div class="about-content">
+            </div>
+
+        </section>
+
+
+        <!-- EDUCATION -->
+        <section class="section education-section">
+
+            <div class="section-heading">
+                <span>02 — EDUCATION</span>
+                <div></div>
+            </div>
+
+            <div class="education-card">
+
+                <div>
+                    <p class="card-label">CURRENT EDUCATION</p>
 
                     <h3>
-                        Technology learner with a passion for
-                        <span>innovation.</span>
+                        BS Computer Science
                     </h3>
 
                     <p>
-                        I am Swaiba Javed Bajwa, an undergraduate Computer Science
-                        student with a strong interest in technology, Artificial
-                        Intelligence, Generative AI, Machine Learning and digital
-                        solutions.
+                        National University of Pakistan
                     </p>
+                </div>
 
-                    <p>
-                        I enjoy learning new technologies, working on creative
-                        projects and exploring how technology can be used to solve
-                        real-world problems.
-                    </p>
+                <div class="education-details">
 
-                    <div class="about-stats">
+                    <div>
+                        <small>SEMESTER</small>
+                        <strong>05</strong>
+                    </div>
 
-                        <div class="stat-card">
-                            <strong>CS</strong>
-                            <span>Student</span>
-                        </div>
+                    <div>
+                        <small>CGPA</small>
+                        <strong>3.23</strong>
+                    </div>
 
-                        <div class="stat-card">
-                            <strong>AI</strong>
-                            <span>Enthusiast</span>
-                        </div>
-
-                        <div class="stat-card">
-                            <strong>∞</strong>
-                            <span>Learning</span>
-                        </div>
-
+                    <div>
+                        <small>GRADUATION</small>
+                        <strong>2028</strong>
                     </div>
 
                 </div>
@@ -294,151 +218,62 @@
         </section>
 
 
-        <!-- ================= EDUCATION ================= -->
-        <section id="education" class="section">
-
-            <div class="section-header">
-                <span class="section-number">02</span>
-                <p>MY ACADEMIC JOURNEY</p>
-                <h2>Edu<span>cation</span></h2>
-            </div>
-
-            <div class="timeline">
-
-                <div class="timeline-item">
-
-                    <div class="timeline-icon">
-                        <i class="fa-solid fa-graduation-cap"></i>
-                    </div>
-
-                    <div class="timeline-card">
-
-                        <span class="timeline-date">
-                            Undergraduate
-                        </span>
-
-                        <h3>
-                            Bachelor of Science in Computer Science
-                        </h3>
-
-                        <h4>
-                            National University of Pakistan
-                        </h4>
-
-                        <p>
-                            Building a strong foundation in Computer Science,
-                            programming, software development, databases,
-                            artificial intelligence and information security.
-                        </p>
-
-                    </div>
-
-                </div>
-
-                <div class="timeline-item">
-
-                    <div class="timeline-icon">
-                        <i class="fa-solid fa-book-open"></i>
-                    </div>
-
-                    <div class="timeline-card">
-
-                        <span class="timeline-date">
-                            Continuous Learning
-                        </span>
-
-                        <h3>
-                            Technology & Professional Development
-                        </h3>
-
-                        <p>
-                            Exploring Artificial Intelligence, Generative AI,
-                            digital technologies, leadership and professional
-                            development through courses, activities and projects.
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ================= SKILLS ================= -->
+        <!-- SKILLS -->
         <section id="skills" class="section">
 
-            <div class="section-header">
-                <span class="section-number">03</span>
-                <p>WHAT I WORK WITH</p>
-                <h2>My <span>Skills</span></h2>
+            <div class="section-heading">
+                <span>03 — SKILLS</span>
+                <div></div>
             </div>
 
-            <div class="skills-grid">
+            <div class="skills-list">
 
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <i class="fa-solid fa-brain"></i>
-                    </div>
-                    <h3>Artificial Intelligence</h3>
-                    <p>AI concepts, Generative AI and AI-powered solutions.</p>
+                <div class="skill-row">
+                    <span>01</span>
+                    <h3>Python</h3>
+                    <p>Programming & Development</p>
                 </div>
 
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <i class="fa-solid fa-robot"></i>
-                    </div>
+                <div class="skill-row">
+                    <span>02</span>
+                    <h3>C++</h3>
+                    <p>Programming & Problem Solving</p>
+                </div>
+
+                <div class="skill-row">
+                    <span>03</span>
+                    <h3>Machine Learning</h3>
+                    <p>Artificial Intelligence</p>
+                </div>
+
+                <div class="skill-row">
+                    <span>04</span>
                     <h3>Generative AI</h3>
-                    <p>Prompting, AI workflows and creative AI applications.</p>
+                    <p>AI & Prompt Engineering</p>
                 </div>
 
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <i class="fa-solid fa-code"></i>
-                    </div>
-                    <h3>Programming</h3>
-                    <p>Programming fundamentals and problem solving.</p>
+                <div class="skill-row">
+                    <span>05</span>
+                    <h3>HTML / CSS / JavaScript</h3>
+                    <p>Web Development</p>
                 </div>
 
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <i class="fa-solid fa-globe"></i>
-                    </div>
-                    <h3>Web Development</h3>
-                    <p>HTML, CSS, JavaScript and responsive web design.</p>
+                <div class="skill-row">
+                    <span>06</span>
+                    <h3>WordPress</h3>
+                    <p>Website Development</p>
                 </div>
 
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <i class="fa-solid fa-database"></i>
-                    </div>
-                    <h3>Database</h3>
-                    <p>Database concepts, SQL and data management.</p>
+                <div class="skill-row">
+                    <span>07</span>
+                    <h3>Git & GitHub</h3>
+                    <p>Version Control</p>
                 </div>
 
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <i class="fa-solid fa-pen-nib"></i>
-                    </div>
-                    <h3>Digital Creativity</h3>
-                    <p>Digital content, AI-assisted creation and creative solutions.</p>
-                </div>
-
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <i class="fa-solid fa-bullhorn"></i>
-                    </div>
-                    <h3>Digital Marketing</h3>
-                    <p>Digital marketing concepts, content and online communication.</p>
-                </div>
-
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <i class="fa-solid fa-users"></i>
-                    </div>
-                    <h3>Leadership</h3>
-                    <p>Teamwork, communication, coordination and initiative.</p>
+                <div class="skill-row">
+                    <span>08</span>
+                    <h3>Prompt Writing</h3>
+                    <p>Generative AI</p>
                 </div>
 
             </div>
@@ -446,13 +281,12 @@
         </section>
 
 
-        <!-- ================= PROJECTS ================= -->
+        <!-- PROJECTS -->
         <section id="projects" class="section">
 
-            <div class="section-header">
-                <span class="section-number">04</span>
-                <p>THINGS I HAVE BUILT</p>
-                <h2>My <span>Projects</span></h2>
+            <div class="section-heading">
+                <span>04 — SELECTED PROJECTS</span>
+                <div></div>
             </div>
 
             <div class="projects-grid">
@@ -461,43 +295,38 @@
 
                     <div class="project-number">01</div>
 
-                    <div class="project-icon">
-                        <i class="fa-solid fa-users"></i>
-                    </div>
-
-                    <h3>Student Record Management System</h3>
+                    <h3>
+                        Student Management System
+                    </h3>
 
                     <p>
-                        A project focused on managing student information,
-                        records and academic data efficiently.
+                        A management system designed to organize student records,
+                        information and basic academic data efficiently.
                     </p>
 
-                    <div class="project-tags">
-                        <span>Programming</span>
-                        <span>Database</span>
+                    <div class="project-tech">
+                        PYTHON / C++
                     </div>
 
                 </article>
 
 
-                <article class="project-card">
+                <article class="project-card featured">
 
                     <div class="project-number">02</div>
 
-                    <div class="project-icon">
-                        <i class="fa-solid fa-school"></i>
-                    </div>
-
-                    <h3>School Management System</h3>
+                    <h3>
+                        School Management System
+                    </h3>
 
                     <p>
-                        A management-oriented software project designed to
-                        organize school-related information and processes.
+                        An extended management project developed from the student
+                        management concept to handle broader school-related
+                        information and operations.
                     </p>
 
-                    <div class="project-tags">
-                        <span>Software</span>
-                        <span>Database</span>
+                    <div class="project-tech">
+                        SOFTWARE DEVELOPMENT
                     </div>
 
                 </article>
@@ -507,20 +336,37 @@
 
                     <div class="project-number">03</div>
 
-                    <div class="project-icon">
-                        <i class="fa-solid fa-gamepad"></i>
-                    </div>
-
-                    <h3>Maze Solver Game</h3>
+                    <h3>
+                        Maze Solver
+                    </h3>
 
                     <p>
-                        A game-based programming project focused on navigation,
-                        logical problem solving and interactive gameplay.
+                        A programming project focused on solving maze paths and
+                        applying logical problem-solving concepts.
                     </p>
 
-                    <div class="project-tags">
-                        <span>Game</span>
-                        <span>Logic</span>
+                    <div class="project-tech">
+                        ALGORITHMS / PROGRAMMING
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-number">04</div>
+
+                    <h3>
+                        Personal Portfolio
+                    </h3>
+
+                    <p>
+                        A modern responsive portfolio website created to showcase
+                        my education, skills, projects and learning journey.
+                    </p>
+
+                    <div class="project-tech">
+                        HTML / CSS / JAVASCRIPT
                     </div>
 
                 </article>
@@ -530,61 +376,44 @@
         </section>
 
 
-        <!-- ================= LEADERSHIP ================= -->
-        <section id="leadership" class="section leadership-section">
+        <!-- WORKSHOPS -->
+        <section class="section">
 
-            <div class="section-header">
-                <span class="section-number">05</span>
-                <p>LEADERSHIP & COMMUNITY</p>
-                <h2>Lead with <span>Purpose</span></h2>
+            <div class="section-heading">
+                <span>05 — WORKSHOPS</span>
+                <div></div>
             </div>
 
-            <div class="leadership-card">
+            <div class="workshop-grid">
 
-                <div class="leadership-icon">
-                    <i class="fa-solid fa-crown"></i>
+                <div class="workshop">
+                    <span>01</span>
+                    <h3>Web Development</h3>
+                    <p>Workshop</p>
                 </div>
 
-                <div class="leadership-content">
+                <div class="workshop">
+                    <span>02</span>
+                    <h3>Ethical Hacking</h3>
+                    <p>Workshop</p>
+                </div>
 
-                    <span class="leadership-label">
-                        LEADERSHIP
-                    </span>
+                <div class="workshop">
+                    <span>03</span>
+                    <h3>Generative AI</h3>
+                    <p>Workshop</p>
+                </div>
 
-                    <h3>
-                        Youth Development & Community Engagement
-                    </h3>
+                <div class="workshop">
+                    <span>04</span>
+                    <h3>Python Programming</h3>
+                    <p>Workshop</p>
+                </div>
 
-                    <p>
-                        Interested in leadership, youth development, community
-                        engagement and creating opportunities for learning,
-                        collaboration and positive impact.
-                    </p>
-
-                    <div class="leadership-points">
-
-                        <div>
-                            <i class="fa-solid fa-check"></i>
-                            <span>Team Collaboration</span>
-                        </div>
-
-                        <div>
-                            <i class="fa-solid fa-check"></i>
-                            <span>Community Engagement</span>
-                        </div>
-
-                        <div>
-                            <i class="fa-solid fa-check"></i>
-                            <span>Communication</span>
-                        </div>
-
-                        <div>
-                            <i class="fa-solid fa-check"></i>
-                            <span>Continuous Learning</span>
-                        </div>
-
-                    </div>
-
+                <div class="workshop">
+                    <span>05</span>
+                    <h3>Python Programming</h3>
+                    <p>1 Month Course</p>
                 </div>
 
             </div>
@@ -592,165 +421,197 @@
         </section>
 
 
-        <!-- ================= CONTACT ================= -->
-        <section id="contact" class="section contact-section">
+        <!-- CERTIFICATES / LEARNING -->
+        <section id="learning" class="section">
 
-            <div class="section-header">
-                <span class="section-number">06</span>
-                <p>LET'S CONNECT</p>
-                <h2>Contact <span>Me</span></h2>
+            <div class="section-heading">
+                <span>06 — CERTIFICATES & LEARNING</span>
+                <div></div>
             </div>
 
-            <div class="contact-wrapper">
+            <div class="learning-grid">
+
+                <div class="learning-card">
+                    <span>AI</span>
+                    <h3>Google AI Fundamentals</h3>
+                </div>
+
+                <div class="learning-card">
+                    <span>AI</span>
+                    <h3>Google AI Essentials V1</h3>
+                </div>
+
+                <div class="learning-card">
+                    <span>AI</span>
+                    <h3>Google AI for Research and Insights</h3>
+                </div>
+
+                <div class="learning-card">
+                    <span>AI</span>
+                    <h3>Artificial Intelligence Summer School 2026</h3>
+                </div>
+
+                <div class="learning-card">
+                    <span>AI</span>
+                    <h3>AI-Powered Intrusion Detection Systems</h3>
+                </div>
+
+                <div class="learning-card">
+                    <span>AI</span>
+                    <h3>Critical Thinking on AI</h3>
+                </div>
+
+                <div class="learning-card">
+                    <span>CYBER</span>
+                    <h3>When STEM Meets Cybersecurity</h3>
+                </div>
+
+                <div class="learning-card">
+                    <span>CYBER</span>
+                    <h3>Cyber Crime Awareness</h3>
+                </div>
+
+                <div class="learning-card">
+                    <span>CYBER</span>
+                    <h3>The Anatomy of a Cyber Attack</h3>
+                </div>
+
+                <div class="learning-card">
+                    <span>CYBER</span>
+                    <h3>Attack VS Defend</h3>
+                </div>
+
+                <div class="learning-card">
+                    <span>WEB3</span>
+                    <h3>Web3 & Blockchain Security</h3>
+                </div>
+
+                <div class="learning-card">
+                    <span>WEB3</span>
+                    <h3>Blockchain Fundamentals</h3>
+                </div>
+
+                <div class="learning-card">
+                    <span>CTF</span>
+                    <h3>DeadLock Mystery Cybersecurity CTF Challenge</h3>
+                </div>
 
-                <div class="contact-main">
+                <div class="learning-card">
+                    <span>AI</span>
+                    <h3>Generative AI Workshop</h3>
+                </div>
 
-                    <div class="contact-symbol">
-                        <i class="fa-regular fa-paper-plane"></i>
-                    </div>
+                <div class="learning-card">
+                    <span>MARKETING</span>
+                    <h3>Digital Marketing in the Era of AI</h3>
+                </div>
 
-                    <h3>
-                        Let's build something meaningful.
-                    </h3>
+                <div class="learning-card">
+                    <span>FELLOWSHIP</span>
+                    <h3>Kashmir Fellowship — 2025</h3>
+                </div>
 
-                    <p>
-                        I am open for internship opportunities, collaborations,
-                        learning opportunities and professional connections.
-                    </p>
+                <div class="learning-card">
+                    <span>LEADERSHIP</span>
+                    <h3>MARKA-E-HAQ</h3>
+                </div>
 
-                    <div class="contact-buttons">
+                <div class="learning-card">
+                    <span>COMMUNICATION</span>
+                    <h3>Speak Up: Negotiations & Communication Hacks</h3>
+                </div>
 
-                        <a href="mailto:swaiba650@gmail.com"
-                           class="contact-button email-button">
+                <div class="learning-card">
+                    <span>PERSONAL</span>
+                    <h3>Emotional Intelligence: A Key to Success</h3>
+                </div>
 
-                            <i class="fa-regular fa-envelope"></i>
+                <div class="learning-card">
+                    <span>RECOGNITION</span>
+                    <h3>Colors of Pakistan — Certificate of Appreciation</h3>
+                </div>
 
-                            <div>
-                                <small>Email</small>
+                <div class="learning-card">
+                    <span>RECOGNITION</span>
+                    <h3>Pakistan Innovation Fund Award</h3>
+                </div>
 
-<span>swaiba650@gmail.com</span>
+            </div>
 
-</div>
+        </section>
 
-</a>
 
-<!-- EXACT LINK
+        <!-- CONTACT -->
+        <section id="contact" class="section contact-section">
 
-<a
+            <div class="section-heading">
+                <span>07 — CONTACT</span>
+                <div></div>
+            </div>
 
-PROVIDED BY YOU <--
+            <div class="contact-content">
 
-href="https://www.linkedin.com/in/swaiba -javed-bajwa-210181315?utm_source=share_via& utm_content=profile&utm_medium=member _android"
+                <h2>
+                    Let's create<br>
+                    <span>something meaningful.</span>
+                </h2>
 
-target="_blank"
+                <p>
+                    Interested in collaboration, opportunities or simply
+                    connecting? Feel free to reach out.
+                </p>
 
-rel="noopener
+                <div class="contact-links">
 
-noreferrer"
+                    <a href="mailto:swaiba650@gmail.com">
+                        <span>EMAIL</span>
+                        swaiba650@gmail.com ↗
+                    </a>
 
-class="contact-button linkedin-button">
-<i
+                    <a href="https://www.linkedin.com/in/swaiba-javed-bajwa"
+                        target="_blank"
+                        rel="noopener noreferrer">
 
-class="fa-brands fa-linkedin-in"></i>
+                        <span>LINKEDIN</span>
+                        LinkedIn Profile ↗
 
-<div>
+                    </a>
 
-<small>LinkedIn</small>
+                    <a href="https://github.com/swaibajavedbajwa"
+                        target="_blank"
+                        rel="noopener noreferrer">
 
-<span>Connect with me</span>
+                        <span>GITHUB</span>
+                        GitHub Profile ↗
 
-</div>
+                    </a>
 
-<i
+                    <!-- Instagram link can be added here later -->
 
-class="fa-solid
+                </div>
 
-fa-arrow-up-right-from-square
+            </div>
 
-external-icon"></i>
+        </section>
 
-</a>
+    </main>
 
-</div>
 
-</div>
+    <!-- FOOTER -->
+    <footer>
 
-</div>
+        <div>
+            © 2026 Swaiba Javed Bajwa
+        </div>
 
-</section>
+        <div>
+            BS COMPUTER SCIENCE • 2024—2028
+        </div>
 
-</main>
+    </footer>
 
-<!-- Footer ->
 
-<footer>
-<div class="footer-logo">
-
-Swaiba Javed Bajwa
-
-</div>
-
-<p>
-
-Undergraduate Computer Science
-
-Student AI Enthusiast Continuous Learner
-
-</p>
-
-<div class="footer-socials">
-
-<a
-
-href="https://www.linkedin.com/in/swaiba
-
--javed-bajwa-210181315?utm_source=share_via& utm_content=profile&utm_medium=member
-
-_android"
-
-target="_blank"
-
-rel="noopener noreferrer">
-
-<i class="fa-brands
-
-fa-linkedin-in"></i>
-
-</a>
-
-<a
-
-href="mailto:swaiba650@gmail.com">
-
-<i class="fa-regular
-
-fa-envelope"></i>
-
-</a>
-
-</div>
-<p class="copyright">
-
-©2026 Swaiba Javed Bajwa. All
-
-rights reserved.
-
-</p>
-
-</footer>
-
-<!-- Back to top -->
-
-<button id="back-to-top"
-
-aria-label="Back to top">
-
-<i class="fa-solid fa-arrow-up"></i>
-
-</button>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
-
 </html>
